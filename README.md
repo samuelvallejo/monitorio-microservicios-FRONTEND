@@ -27,7 +27,7 @@ npm run preview
 
 ## Vercel
 
-Import this repository as a Vite project and set `VITE_API_URL` to the public Railway API origin. Configure the backend's `ALLOWED_ORIGINS` with the deployed Vercel origin. `vercel.json` rewrites SPA routes to `index.html`.
+Import this repository as a Vite project and set `VITE_API_URL` to the public Render gateway origin (`https://microservice-audit-monitor-api.onrender.com`). Configure the backend's `ALLOWED_ORIGINS` with the deployed Vercel origin. `vercel.json` rewrites SPA routes to `index.html`.
 
 Frontend repository: [monitorio-microservicios-FRONTEND](https://github.com/samuelvallejo/monitorio-microservicios-FRONTEND)  
 Backend repository: [monitorio-microservicios-BACKEND](https://github.com/samuelvallejo/monitorio-microservicios-BACKEND)  
